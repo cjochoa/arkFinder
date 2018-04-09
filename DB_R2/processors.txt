@@ -1,0 +1,501 @@
+# of Cores
+Property Name: CoreCount
+Type: System.Int16
+Propety Description: Cores is a hardware term that describes the number of independent central processing units in a single computing component (die or chip).
+# of Displays Supported ‡
+Property Name: NumDisplaysSupported
+Type: System.Int32
+# of Graphics and IMC Die Transistors
+Property Name: GIMCTransistorCount
+Type: System.Double
+# of Graphics Cores
+Property Name: GraphicsCoreCount
+Type: System.Int32
+# of Processing Die Transistors
+Property Name: TransistorCount
+Type: System.Double
+# of QPI Links
+Property Name: BusNumPorts
+Type: System.Int32
+Propety Description: QPI (Quick Path Interconnect) links are a high speed, point-to-point interconnect bus between the processor and chipset.
+# of Threads
+Property Name: ThreadCount
+Type: System.Int32
+Propety Description: A Thread, or thread of execution, is a software term for the basic ordered sequence of instructions that can be passed through or processed by a single CPU core.
+4K Support
+Property Name: Graphics4KSupportLevel
+Type: System.String
+Propety Description: 4K support indicates the product's support of 4K resolution, defined here as minimum 3840 x 2160.
+Antenna
+Property Name: Antenna
+Type: System.String
+Anti-Theft Technology
+Property Name: AntiTheftTechnology
+Type: System.Boolean
+Propety Description: Intel® Anti-Theft Technology (Intel® AT) helps keep your laptop safe and secure in the event that it’s ever lost or stolen. Intel® AT requires a service subscription from an Intel® AT–enabled service provider.
+Baseband Functions
+Property Name: BasebandFunctions
+Type: System.String
+Propety Description: Baseband functions refers to the mobile telephony protocols supported by the baseband processor.
+Brand
+Property Name: ProcessorBrandName
+Type: System.String
+Burst Frequency
+Property Name: BurstFrequency
+Type: System.String
+Propety Description: Burst frequency is the maximum single core frequency at which the processor is capable of operating. Frequency is measured in gigahertz (GHz), or billion cycles per second.
+Secondary Property Name: BurstFrequencyMhz
+Secondary Property Type: System.Double
+Bus Type
+Property Name: BusType
+Type: System.String
+Bus/Core Ratio
+Property Name: BusCoreRatio
+Type: System.String
+Cache
+Property Name: Cache
+Type: System.String
+Propety Description: CPU Cache is an area of fast memory located on the processor. Intel® Smart Cache refers to the architecture that allows all cores to dynamically share access to the last level cache.
+Secondary Property Name: CacheKB
+Secondary Property Type: System.Double
+Cache Type
+Property Name: CacheType
+Type: System.String
+Configurable TDP-down
+Property Name: ConfigTDPMin
+Type: System.Double
+Propety Description: Configurable TDP-down is a processor operating mode where the processor behavior and performance is modified by lowering TDP and the processor frequency to fixed points. The use of Configurable TDP-down is typically executed by the system manufacturer to optimize power and performance. Configurable TDP-down is the average power, in watts, that the processor dissipates when operating at the Configurable TDP-down frequency under an Intel-defined, high-complexity workload.
+Configurable TDP-down Frequency
+Property Name: ConfigTDPMinFrequency
+Type: System.String
+Propety Description: Configurable TDP-down Frequency is a processor operating mode where the processor behavior and performance is modified by lowering TDP and the processor frequency to fixed points. The Configurable TDP-down Frequency is where the Configurable TDP-down is defined. Frequency is measured in gigahertz (GHz), or billion cycles per second.
+Secondary Property Name: ConfigTDPMinFrequencyMhz
+Secondary Property Type: System.Double
+Configurable TDP-up
+Property Name: ConfigTDPMax
+Type: System.Double
+Propety Description: Configurable TDP-up is a processor operating mode where the processor behavior and performance is modified by raising TDP and the processor frequency to fixed points. The use of Configurable TDP-up is typically executed by the system manufacturer to optimize power and performance. Configurable TDP-up is the average power, in watts, that the processor dissipates when operating at the Configurable TDP-up frequency under an Intel-defined, high-complexity workload.
+Configurable TDP-up Frequency
+Property Name: ConfigTDPMaxFrequency
+Type: System.String
+Propety Description: Configurable TDP-up Frequency is a processor operating mode where the processor behavior and performance is modified by raising TDP and the processor frequency to fixed points. The Configurable TDP-up Frequency is where the Configurable TDP-up is defined. Frequency is measured in gigahertz (GHz), or billion cycles per second.
+Secondary Property Name: ConfigTDPMaxFrequencyMhz
+Secondary Property Type: System.Double
+Conflict Free
+Property Name: DrcConflictFree
+Type: System.Boolean
+Propety Description: “Conflict free” means “DRC conflict free”, which is defined by the U.S. Securities and Exchange Commission rules to mean products that do not contain conflict minerals (tin, tantalum, tungsten and/or gold) that directly or indirectly finance or benefit armed groups in the Democratic Republic of the Congo (DRC) or adjoining countries.
+Datasheet
+Property Name: DatasheetUrl
+Type: System.String
+Device ID
+Property Name: GraphicsDeviceId
+Type: System.String
+DirectX* Support
+Property Name: GraphicsDirectXSupport
+Type: System.String
+Propety Description: DirectX indicates support for a specific version of Microsoft’s collection of API’s (Application Programming Interfaces) for handling multimedia compute tasks.
+Dual Display Capable ‡
+Property Name: DualDisplay
+Type: System.Boolean
+ECC Memory Supported ‡
+Property Name: ECCMemory
+Type: System.Boolean
+Propety Description: ECC Memory Supported indicates processor support for Error-Correcting Code memory. ECC memory is a type of system memory that can detect and correct common kinds of internal data corruption. Note that ECC memory support requires both processor and chipset support.
+eDRAM
+Property Name: EmbeddedDramMB
+Type: System.Int32
+Propety Description: eDRAM (embedded DRAM) is a capacitor-based dynamic random-access memory integrated on the processor die.
+Embedded Options Available
+Property Name: Embedded
+Type: System.Boolean
+Propety Description: Embedded Options Available indicates products that offer extended purchase availability for intelligent systems and embedded solutions. Product certification and use condition applications can be found in the Production Release Qualification (PRQ) report. See your Intel representative for details.
+Enhanced Intel SpeedStep® Technology
+Property Name: SpeedstepTechnology
+Type: System.Boolean
+Propety Description: Enhanced Intel SpeedStep® Technology is an advanced means of enabling high performance while meeting the power-conservation needs of mobile systems. Conventional Intel SpeedStep® Technology switches both voltage and frequency in tandem between high and low levels in response to processor load. Enhanced Intel SpeedStep® Technology builds upon that architecture using design strategies such as Separation between Voltage and Frequency Changes, and Clock Partitioning and Recovery.
+Execute Disable Bit ‡
+Property Name: ExecuteDisable
+Type: System.Boolean
+Propety Description: Execute Disable Bit is a hardware-based security feature that can reduce exposure to viruses and malicious-code attacks and prevent harmful software from executing and propagating on the server or network.
+Execution Units
+Property Name: GraphicsExecutionUnits
+Type: System.Int32
+Propety Description: The Execution Unit is the foundational building block of Intel’s graphics architecture. Execution Units are compute processors optimized for simultaneous Multi-Threading for high throughput compute power.
+FSB Parity
+Property Name: FSBParity
+Type: System.Boolean
+Propety Description: FSB parity provides error checking on data sent on the FSB (Front Side Bus).
+Graphics and IMC Die Size
+Property Name: GIMCDieSize
+Type: System.String
+Graphics and IMC Lithography
+Property Name: GIMCLithography
+Type: System.String
+Graphics Base Frequency
+Property Name: GraphicsFreq
+Type: System.String
+Propety Description: Graphics Base frequency refers to the rated/guaranteed graphics render clock frequency in MHz.
+Secondary Property Name: GraphicsFreqMHz
+Secondary Property Type: System.Double
+Graphics Burst Frequency
+Property Name: GraphicsBurstFrequency
+Type: System.String
+Secondary Property Name: GraphicsBurstFrequencyMhz
+Secondary Property Type: System.Double
+Graphics Max Dynamic Frequency
+Property Name: GraphicsMaxFreq
+Type: System.String
+Propety Description: Graphics max dynamic frequency refers to the maximum opportunistic graphics render clock frequency (in MHz) that can be supported using Intel® HD Graphics with Dynamic Frequency feature.
+Secondary Property Name: GraphicsMaxFreqMHz
+Secondary Property Type: System.Double
+Graphics Output
+Property Name: GraphicsOutput
+Type: System.String
+Propety Description: Graphics Output defines the interfaces available to communicate with display devices.
+Graphics Video Max Memory
+Property Name: GraphicsMaxMem
+Type: System.String
+Propety Description: The maximum amount of memory accessible to processor graphics. Processor graphics operates on the same physical memory as the CPU (subject to OS, driver, and other system limitations).
+Secondary Property Name: GraphicsMaxMemMB
+Secondary Property Type: System.Int32
+Idle States
+Property Name: HaltState
+Type: System.Boolean
+Propety Description: Idle States (C-states) are used to save power when the processor is idle. C0 is the operational state, meaning that the CPU is doing useful work. C1 is the first idle state, C2 the second, and so on, where more power saving actions are taken for numerically higher C-states.
+Instruction Set
+Property Name: InstructionSet
+Type: System.String
+Propety Description: An instruction set refers to the basic set of commands and instructions that a microprocessor understands and can carry out. The value shown represents which Intel’s instruction set this processor is compatible with.
+Instruction Set Extensions
+Property Name: InstructionSetExtensions
+Type: System.String
+Propety Description: Instruction Set Extensions are additional instructions which can increase performance when the same operations are performed on multiple data objects. These can include SSE (Streaming SIMD Extensions) and AVX (Advanced Vector Extensions).
+Integrated Graphics ‡
+Property Name: IntegratedGraphics
+Type: System.Boolean
+Propety Description: Integrated graphics allow for incredible visual quality, faster graphic performance and flexible display options without the need for a separate graphics card.
+Intel® 64 ‡
+Property Name: EM64
+Type: System.Boolean
+Propety Description: Intel® 64 architecture delivers 64-bit computing on server, workstation, desktop and mobile platforms when combined with supporting software.¹ Intel 64 architecture improves performance by allowing systems to address more than 4 GB of both virtual and physical memory.
+Intel® Advanced Vector Extensions
+Property Name: AdvancedVectorExtensions
+Type: System.Boolean
+Propety Description: Intel® Advanced Vector Extensions gives more computing power to application developers with a new 256-bit instruction set extensions to Intel® SSE.
+Intel® AES New Instructions
+Property Name: AESTech
+Type: System.Boolean
+Propety Description: Intel® AES New Instructions (Intel® AES-NI) are a set of instructions that enable fast and secure data encryption and decryption. AES-NI are valuable for a wide range of cryptographic applications, for example: applications that perform bulk encryption/decryption, authentication, random number generation, and authenticated encryption.
+Intel® Clear Video HD Technology
+Property Name: CVTHD
+Type: System.Boolean
+Propety Description: Intel® Clear Video HD Technology, like its predecessor, Intel® Clear Video Technology, is a suite of image decode and processing technologies built into the integrated processor graphics that improve video playback, delivering cleaner, sharper images, more natural, accurate, and vivid colors, and a clear and stable video picture. Intel® Clear Video HD Technology adds video quality enhancements for richer color and more realistic skin tones.
+Intel® Clear Video Technology
+Property Name: ClearVideoTechnology
+Type: System.Boolean
+Propety Description: Intel® Clear Video Technology is a suite of image decode and processing technologies built into the integrated processor graphics that improve video playback, delivering cleaner, sharper images, more natural, accurate, and vivid colors, and a clear and stable video picture.
+Intel® Clear Video Technology for MID
+Property Name: CVTMID
+Type: System.Boolean
+Intel® Demand Based Switching
+Property Name: DemandBasedSwitching
+Type: System.Boolean
+Propety Description: Intel® Demand Based Switching is a power-management technology in which the applied voltage and clock speed of a microprocessor are kept at the minimum necessary levels until more processing power is required. This technology was introduced as Intel SpeedStep® Technology in the server marketplace.
+Intel® Fast Memory Access
+Property Name: FastMemoryTechnology
+Type: System.Boolean
+Propety Description: Intel® Fast Memory Access is an updated Graphics Memory Controller Hub (GMCH) backbone architecture that improves system performance by optimizing the use of available memory bandwidth and reducing the latency of the memory accesses.
+Intel® Flex Memory Access
+Property Name: FlexMemoryTechnology
+Type: System.Boolean
+Propety Description: Intel® Flex Memory Access facilitates easier upgrades by allowing different memory sizes to be populated and remain in dual-channel mode.
+Intel® Flexible Display Interface (Intel® FDI)
+Property Name: FDI
+Type: System.Boolean
+Propety Description: The Intel® Flexible Display Interface is an innovative path for two independently controlled channels of integrated graphics to be displayed.
+Intel® Hyper-Threading Technology ‡
+Property Name: HyperThreading
+Type: System.Boolean
+Propety Description: Intel® Hyper-Threading Technology (Intel® HT Technology) delivers two processing threads per physical core. Highly threaded applications can get more work done in parallel, completing tasks sooner.
+Intel® Identity Protection Technology ‡
+Property Name: IdentityProtectionTechVersion
+Type: System.Double
+Propety Description: Intel® Identity Protection Technology is a built-in security token technology that helps provide a simple, tamper-resistant method for protecting access to your online customer and business data from threats and fraud. Intel® IPT provides a hardware-based proof of a unique user’s PC to websites, financial institutions, and network services; providing verification that it is not malware attempting to login. Intel® IPT can be a key component in two-factor authentication solutions to protect your information at websites and business log-ins.
+Intel® Insider™
+Property Name: IntelInsider
+Type: System.Boolean
+Propety Description: Intel® Insider™ delivers premium HD content to an UltrabookTM or PC.
+Intel® Instruction Replay Technology
+Property Name: InstructionReplayTechVersion
+Type: System.Double
+Propety Description: Intel® Instruction Replay Technology provides enhanced support for automatically detecting and correcting errors in the instruction pipeline of the processor. It not only identifies a wider range of potential errors, but also corrects them almost instantly, so the delay is transparent to the software running on the server platform.
+Intel® InTru™ 3D Technology
+Property Name: InTru3D
+Type: System.Boolean
+Propety Description: Intel® InTru™ 3D Technology provides stereoscopic 3-D Blu-ray* playback in full 1080p resolution over HDMI* 1.4 and premium audio.
+Intel® My WiFi Technology
+Property Name: MyWiFiTech
+Type: System.Boolean
+Propety Description: Intel® My WiFi Technology enables wireless connection of an UltrabookTM or laptop to WiFi-enabled devices such as printers, stereos, etc.
+Intel® Optane™ Memory Supported ‡
+Property Name: OptaneMemorySupport
+Type: System.String
+Propety Description: Intel® Optane™ memory is a revolutionary new class of non-volatile memory that sits in between system memory and storage to accelerate system performance and responsiveness. When combined with the Intel® Rapid Storage Technology Driver, it seamlessly manages multiple tiers of storage while presenting one virtual drive to the OS, ensuring that data frequently used resides on the fastest tier of storage. Intel® Optane™ memory requires specific hardware and software configuration. Visit www.intel.com/OptaneMemory for configuration requirements.
+Intel® Quick Sync Video
+Property Name: QuickSyncVideo
+Type: System.Boolean
+Propety Description: Intel® Quick Sync Video delivers fast conversion of video for portable media players, online sharing, and video editing and authoring.
+Intel® Rapid Storage Technology
+Property Name: RapidStorageTech
+Type: System.Boolean
+Propety Description: Intel® Rapid Storage Technology provides protection, performance, and expandability for desktop and mobile platforms. Whether using one or multiple hard drives, users can take advantage of enhanced performance and lower power consumption. When using more than one drive the user can have additional protection against data loss in the event of hard drive failure. Successor to Intel® Matrix Storage Technology.
+Intel® Small Business Advantage
+Property Name: SmallBusinessAdvantageTechVersion
+Type: System.Double
+Propety Description: Intel® Small Business Advantage provides small businesses with out-the-box features to enhance the security and productivity of their small business with software monitor, data backup and restore, USB port blocker, health center and wireless display.
+Intel® Smart Connect Technology
+Property Name: SmartConnectVersion
+Type: System.Double
+Propety Description: Intel® Smart Connect Technology automatically updates applications such as e-mail and social networks when your computer is asleep. With Intel Smart Connect Technology, you do not have to wait for your applications to update when you wake up your computer.
+Intel® Smart Idle Technology
+Property Name: SmartIdleTechVersion
+Type: System.Double
+Intel® Smart Response Technology
+Property Name: SmartResponseTechVersion
+Type: System.Double
+Propety Description: Intel® Smart Response Technology combines the fast performance of a small solid state drive with the large capacity of a hard disk drive.
+Intel® Software Guard Extensions (Intel® SGX)
+Property Name: SoftwareGuardExtensions
+Type: System.Int32
+Propety Description: Intel® Software Guard Extensions (Intel® SGX) provide applications the ability to create hardware enforced trusted execution protection for their applications’ sensitive routines and data. Run-time execution is protected from observation or tampering by any other software (including privileged software) in a system.
+Intel® Speed Shift Technology
+Property Name: SpeedShiftTechVersion
+Type: System.Double
+Propety Description: Intel® Speed Shift Technology uses hardware-controlled P-states to deliver dramatically quicker responsiveness with single-threaded, transient (short duration) workloads, such as web browsing, by allowing the processor to more quickly select its best operating frequency and voltage for optimal performance and power efficiency.
+Intel® Stable Image Platform Program (SIPP)
+Property Name: StableImagePlatformProgramVersion
+Type: System.Double
+Propety Description: Intel® Stable Image Platform Program (Intel® SIPP) can help your company identify and deploy standardized, stable image PC platforms for at least 15 months.
+Intel® Trusted Execution Technology ‡
+Property Name: TXT
+Type: System.Boolean
+Propety Description: Intel® Trusted Execution Technology for safer computing is a versatile set of hardware extensions to Intel® processors and chipsets that enhance the digital office platform with security capabilities such as measured launch and protected execution. It enables an environment where applications can run within their own space, protected from all other software on the system.
+Intel® TSX-NI
+Property Name: TransactionalSynchronizationExtensionVersion
+Type: System.Double
+Propety Description: Intel® Transactional Synchronization Extensions New Instructions (Intel® TSX-NI) are a set of instructions focused on multi-threaded performance scaling.  This technology helps make parallel operations more efficient via improved control of locks in software.
+Intel® Turbo Boost Technology
+Property Name: TBT
+Type: System.Boolean
+Intel® Turbo Boost Technology ‡
+Property Name: TBTVersion
+Type: System.String
+Propety Description: Intel® Turbo Boost Technology dynamically increases the processor's frequency as needed by taking advantage of thermal and power headroom to give you a burst of speed when you need it, and increased energy efficiency when you don’t.
+Intel® Virtualization Technology (VT-x) ‡
+Property Name: VTX
+Type: System.String
+Propety Description: Intel® Virtualization Technology (VT-x) allows one hardware platform to function as multiple “virtual” platforms. It offers improved manageability by limiting downtime and maintaining productivity by isolating computing activities into separate partitions.
+Intel® Virtualization Technology for Directed I/O (VT-d) ‡
+Property Name: VTD
+Type: System.Boolean
+Propety Description: Intel® Virtualization Technology for Directed I/O (VT-d) continues from the existing support for IA-32 (VT-x) and Itanium® processor (VT-i) virtualization adding new support for I/O-device virtualization. Intel VT-d can help end users improve security and reliability of the systems and also improve performance of I/O devices in virtualized environments.
+Intel® vPro™ Technology ‡
+Property Name: VProTechnology
+Type: System.Boolean
+Propety Description: Intel® vPro™ Technology is a set of security and manageability capabilities built into the processor aimed at addressing four critical areas of IT security: 1) Threat management, including protection from rootkits, viruses, and malware 2) Identity and web site access point protection 3) Confidential personal and business data protection 4) Remote and local monitoring, remediation, and repair of PCs and workstations.
+Intel® VT-x with Extended Page Tables (EPT) ‡
+Property Name: ExtendedPageTables
+Type: System.Boolean
+Propety Description: Intel® VT-x with Extended Page Tables (EPT), also known as Second Level Address Translation (SLAT), provides acceleration for memory intensive virtualized applications. Extended Page Tables in Intel® Virtualization Technology platforms reduces the memory and power overhead costs and increases battery life through hardware optimization of page table management.
+Intel® Wireless Display
+Property Name: WiDi
+Type: System.Boolean
+Propety Description: Intel® Wireless Display is technology that enables wireless streaming of movies, photos, websites, and more from an UltrabookTM or PC to an HDTV.
+Launch Date
+Property Name: BornOnDate
+Type: System.String
+Propety Description: The date the product was first introduced.
+Lithography
+Property Name: Lithography
+Type: System.String
+Propety Description: Lithography refers to the semiconductor technology used to manufacture an integrated circuit, and is reported in nanometer (nm), indicative of the size of features built on the semiconductor.
+Max # of Memory Channels
+Property Name: NumMemoryChannels
+Type: System.Int32
+Propety Description: The number of memory channels refers to the bandwidth operation for real world application.
+Max # of PCI Express Lanes
+Property Name: NumPCIExpressPorts
+Type: System.Int32
+Propety Description: A PCI Express (PCIe) lane consists of two differential signaling pairs, one for receiving data, one for transmitting data, and is the basic unit of the PCIe bus. # of PCI Express Lanes is the total number supported by the processor.
+Max # of SATA 6.0 Gb/s Ports
+Property Name: SATA6PortCount
+Type: System.Int32
+Max CPU Configuration
+Property Name: MaxCPUs
+Type: System.Int32
+Max Memory Bandwidth
+Property Name: MaxMemoryBandwidth
+Type: System.Double
+Propety Description: Max Memory bandwidth is the maximum rate at which data can be read from or stored into a semiconductor memory by the processor (in GB/s).
+Max Memory Size (dependent on memory type)
+Property Name: MaxMem
+Type: System.String
+Propety Description: Max memory size refers to the maximum memory capacity supported by the processor.
+Secondary Property Name: MaxMemMB
+Secondary Property Type: System.Int32
+Max Refresh Rate
+Property Name: GraphicsMaxRefreshRateHz
+Type: System.Int32
+Propety Description: Max Refresh Rate indicates the frequency with which a monitor's display is updated.
+Max Resolution (DP)‡
+Property Name: GraphicsMaxResolutionDP
+Type: System.String
+Propety Description: Max Resolution (DP) is the maximum resolution supported by the processor via the DP interface (24bits per pixel & 60Hz). System or device display resolution is dependent on multiple system design factors; actual resolution may be lower on your system.
+Max Resolution (eDP - Integrated Flat Panel)‡
+Property Name: GraphicsMaxResolutionIFP
+Type: System.String
+Propety Description: Max Resolution (Integrated Flat Panel) is the maximum resolution supported by the processor for a device with an integrated flat panel (24bits per pixel & 60Hz). System or device display resolution is dependent on multiple system design factors; actual resolution may be lower on your device.
+Max Resolution (HDMI 1.4)‡
+Property Name: GraphicsMaxResolutionHDMI
+Type: System.String
+Propety Description: Max Resolution (HDMI) is the maximum resolution supported by the processor via the HDMI interface (24bits per pixel & 60Hz). System or device display resolution is dependent on multiple system design factors; actual resolution may be lower on your system.
+Max Resolution (HDMI 2.0)‡
+Property Name: GraphicsMaxResolutionHDMI2
+Type: System.String
+Propety Description: Max Resolution (HDMI 2.0) is the maximum resolution supported by the processor via the HDMI 2.0 interface (24bits per pixel & 60Hz). System or device display resolution is dependent on multiple system design factors; actual resolution may be lower on your system.
+Max Resolution (Intel® WiDi)‡
+Property Name: GraphicsMaxResolutionWiDi
+Type: System.String
+Propety Description: Max Resolution (Wireless) is the maximum resolution supported by the processor via a wireless interface (24bits per pixel & 60Hz). System or device display resolution is dependent on multiple system design factors; actual resolution may be lower on your system.
+Max Resolution (VGA)‡
+Property Name: GraphicsMaxResoluionVGA
+Type: System.String
+Propety Description: Max Resolution (VGA) is the maximum resolution supported by the processor via the VGA interface (24bits per pixel & 60Hz). System or device display resolution is dependent on multiple system design factors; actual resolution may be lower on your system.
+Max Turbo Frequency
+Property Name: ClockSpeedMax
+Type: System.String
+Propety Description: Max turbo frequency is the maximum single core frequency at which the processor is capable of operating using Intel® Turbo Boost Technology. Frequency is measured in gigahertz (GHz), or billion cycles per second.
+Secondary Property Name: ClockSpeedMaxMhz
+Secondary Property Type: System.Double
+Memory Types
+Property Name: MemoryTypes
+Type: System.String
+Propety Description: Intel® processors come in four different types: a Single Channel, Dual Channel, Triple Channel, and Flex Mode.
+OpenGL* Support
+Property Name: GraphicsOpenGLSupport
+Type: System.String
+Propety Description: OpenGL (Open Graphics Library) is a cross-language, multi-platform API (Application Programming Interface) for rendering 2D and 3D vector graphics.
+Package Size
+Property Name: PackageSize
+Type: System.String
+PCI Express Configurations ‡
+Property Name: PCIExpressConfigs
+Type: System.String
+Propety Description: PCI Express (PCIe) Configurations describe the available PCIe lane configurations that can be used to link the PCH PCIe lanes to PCIe devices.
+PCI Express Revision
+Property Name: PCIExpressRevision
+Type: System.String
+Propety Description: PCI Express Revision is the version supported by the processor. Peripheral Component Interconnect Express (or PCIe) is a high-speed serial computer expansion bus standard for attaching hardware devices to a computer. The different PCI Express versions support different data rates.
+Physical Address Extensions
+Property Name: PhysicalAddressExtension
+Type: System.String
+Propety Description: Physical Address Extensions (PAE) is a feature that allows 32-bit processors to access a physical address space larger than 4 gigabytes.
+Processing Die Size
+Property Name: DieSize
+Type: System.String
+Processor Base Frequency
+Property Name: ClockSpeed
+Type: System.String
+Propety Description: Processor Base Frequency describes the rate at which the processor's transistors open and close. The processor base frequency is the operating point where TDP is defined. Frequency is measured in gigahertz (GHz), or billion cycles per second.
+Secondary Property Name: ClockSpeedMhz
+Secondary Property Type: System.Double
+Processor Graphics ‡
+Property Name: GraphicsModel
+Type: System.String
+Propety Description: Processor Graphics indicates graphics processing circuitry integrated into the processor, providing the graphics, compute, media, and display capabilities. Intel® HD Graphics, Iris™ Graphics, Iris Plus Graphics, and Iris Pro Graphics deliver enhanced media conversion, fast frame rates, and 4K Ultra HD (UHD) video. See the Intel® Graphics Technology page for more information.
+Processor Graphics ‡
+Property Name: ProcessorGraphics
+Type: System.Boolean
+Propety Description: Processor Graphics indicates the generation of integrated graphics core present in the processor. Intel® HD Graphics deliver high-quality, high-definition (HD) video playback, advanced 3D capabilities, and full support for the computer’s operating system, without the need for a discrete graphics card.
+Processor Number
+Property Name: ProcessorNumber
+Type: System.String
+Product Images
+Property Name: ImagesTypeMap
+Type: System.String
+Product Name
+Property Name: ProductName
+Type: System.String
+Protocol Stack
+Property Name: ProtocolStack
+Type: System.String
+Propety Description: Protocol stack is the software implementation of a networking protocol suite that defines the communication between each layer of the network
+Publication Date
+Property Name: LaunchDate
+Type: System.DateTime
+RF Transceiver
+Property Name: RadioFreqTransceiver
+Type: System.String
+Propety Description: An RF transceiver is a chip that transmits and receives a high frequency radio signal.
+RF Transceiver Functions
+Property Name: RadioFreqTransceiverFunctions
+Type: System.String
+Propety Description: RF transceiver functions refers to the mobile telephony protocols supported by the RF transceiver.
+Scalability
+Property Name: ScalableSockets
+Type: System.String
+Scenario Design Power (SDP)
+Property Name: ScenarioDesignPower
+Type: System.Double
+Propety Description: Scenario Design Power (SDP) is an additional thermal reference point meant to represent thermally relevant device usage in real-world environmental scenarios. It balances performance and power requirements across system workloads to represent real-world power usage. Reference product technical documentation for full power specifications.
+Secure Boot
+Property Name: SecureBootTechVersion
+Type: System.Double
+Propety Description: Secure Boot ensures that only trusted software with a known configuration executes as part of the boot process.  It enables the hardware root of trust which starts the authentication chain for platform firmware and subsequent software load, like the operating system, for example.
+Secure Key
+Property Name: SecureKeyTechVersion
+Type: System.Double
+Propety Description: Intel® Secure Key consists of a digital random number generator that creates truly random numbers to strengthen encryption algorithms.
+Sockets Supported
+Property Name: SocketsSupported
+Type: System.String
+Propety Description: The socket is the component that provides the mechanical and electrical connections between the processor and motherboard.
+TCASE
+Property Name: TCase
+Type: System.String
+Propety Description: Case Temperature is the maximum temperature allowed at the processor Integrated Heat Spreader (IHS).
+TJUNCTION
+Property Name: ThermalJunctionRateCode
+Type: System.String
+Propety Description: Junction Temperature is the maximum temperature allowed at the processor die.
+TDP
+Property Name: MaxTDP
+Type: System.Double
+Propety Description: Thermal Design Power (TDP) represents the average power, in watts, the processor dissipates when operating at Base Frequency with all cores active under an Intel-defined, high-complexity workload. Refer to Datasheet for thermal solution requirements.
+Thermal Monitoring Technologies
+Property Name: ThermalMonitoring2Indicator
+Type: System.Boolean
+Propety Description: Thermal Monitoring Technologies protect the processor package and the system from thermal failure through several thermal management features. An on-die Digital Thermal Sensor (DTS) detects the core's temperature, and the thermal management features reduce package power consumption and thereby temperature when required in order to remain within normal operating limits.
+Thermal Solution Specification
+Property Name: ThermalSolutionSpecification
+Type: System.String
+Propety Description: Intel Reference Heat Sink specification for proper operation of this SKU.
+Vertical Segment
+Property Name: MarketSegment
+Type: System.String
+VID Voltage Range
+Property Name: CoreVoltage
+Type: System.String
+Propety Description: VID Voltage Range is an indicator of the minimum and maximum voltage values at which the processor is designed to operate. The processor communicates VID to the VRM (Voltage Regulator Module), which in turn delivers that correct voltage to the processor.
+Video Decode
+Property Name: GraphicsVideoDecode
+Type: System.String
+ChipsetComponents
+CodeName
+Family
+OrderingInfo
+ProcessorBrand
+ProductGeneric
+Series
+ServerWorkstationBoards
